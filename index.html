@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <div id="main" style="display: block;">
+      <h1>here come the questions!</h1>
+      <input type="button" id="start" value = "start">
+    </div>
+
+    <div id="question1" class="quiz">
+      <h3>how would you greet</h3>
+      <input type="radio" name="q1" value ="question2"> yo!
+      <input type="radio" name="q1" value ="question3"> howdy! 
+      <input type="radio" name="q1" value ="question4"> hi! 
+
+      <button name="click1" onclick="click1()">
+      next
+      </button>
+
+    </div>
+
+<!-- first route -->
+    <div id="question2" class="quiz">
+      <h3>pick your GOAT</h3>
+      <input type="radio" name="q2" value ="question5"> Eminem
+      <input type="radio" name="q2" value ="question6"> N.W.A
+      <input type="radio" name="q2" value ="question7"> Next Gen
+
+      <button name="click2" onclick="click2('q2')">
+        next
+        </button>
+    </div>
+
+    <div id="question5" class="quiz">
+      <h3>Shady, Marshall Mathers or Em?</h3>
+      <input type="radio" name="q5" value ="ans5.1"> My Name Is
+      <input type="radio" name="q5" value ="ans5.2"> Rap God
+      <input type="radio" name="q5" value ="ans5.3"> Lose Yourself
+
+      <input type="button" name="click5" value="next" onclick="click5()">
+    </div>
+
+    <div id="question6" class="quiz">
+      <h3>Ice Cube, Dr.Dre or Eazy-E?</h3>
+      <input type="radio" name="q6" value ="ans6.1"> It Was A Good Day
+      <input type="radio" name="q6" value ="ans6.2"> Still D.R.E
+      <input type="radio" name="q6" value ="ans6.3"> Boyz-N-The-Hood
+
+      <input type="button" name="click6" value="next" onclick="click6()">
+    </div>
+
+    <div id="question7" class="quiz">
+      <h3>G-Eazy, Kendrick Lamar or J Cole? </h3>
+      <input type="radio" name="q7" value ="ans7.1"> I Mean It
+      <input type="radio" name="q7" value ="ans7.2"> Humble
+      <input type="radio" name="q7" value ="ans7.3"> No Role Modelz
+
+      <input type="button" name="click7" value="next" onclick="click7()">
+    </div>
+
+    <h2 id="ans5.1" class="ans">
+      Ch Ch Ch Slim Shady!
+    </h2>
+    <h2 id="ans5.2" class="ans">
+      Super Sonic Speed
+    </h2>
+    <h2 id="ans5.3" class="ans">
+      Mom Spagetthti
+    </h2>
+    
+<!-- End first route -->
+
+    <div id="question3">
+      <h3>Your genre</h3>
+      <input type="radio" name="q3" value ="question8"> yea
+      <input type="radio" name="q3" value ="question9"> hmm
+      <input type="radio" name="q3" value ="question10"> maybe
+
+      <input type="button" name="click3" value="next" onclick="click3()">
+    </div>
+
+    <div id="question4">
+      <h3></h3>
+      <input type="radio" name="q4" value ="question11"> yea
+      <input type="radio" name="q4" value ="question12"> hmm
+      <input type="radio" name="q4" value ="question13"> maybe
+
+      <input type="button" name="click4" value="next" onclick="click4()">
+
+    </div>
+
+
+
+
+
+
+    <!--RESTART BUTTON-->
+    <button id="reset" name="reset" style="display: none;">
+      Restart
+    </button>
+  </body>
+</html>
