@@ -36,11 +36,28 @@ function click5(){
 function click6(){
     magicMachine("q6")
     question6.style.display = "none";
+    document.getElementById("reset").style.display = "block";
 }
 
 function click7(){
     magicMachine("q7")
     question7.style.display = "none";
+    document.getElementById("reset").style.display = "block";
+}
+
+//------------End route 1------------------
+
+//----------route 2 ------------------
+function click3(){
+    magicMachine("q3")
+    question3.style.display = "none";
+    document.getElementById("reset").style.display = "block";
+}
+//-----------end route 2-----------
+function click4(){
+    magicMachine("q4")
+    question4.style.display = "none";
+    document.getElementById("reset").style.display = "block";
 }
 
 reset.onclick = function(){
